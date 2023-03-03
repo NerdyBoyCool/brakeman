@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gemspec :name => "brakeman"
-gem 'pry-rails'
+gem "debug"
 unless ENV['BM_PACKAGE']
   gem "rake"
 end
